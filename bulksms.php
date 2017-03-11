@@ -6,7 +6,7 @@ define('DB','1295595');
  
 $con = mysqli_connect(HOST,USER,PASS,DB);
  
-$sql = "select * from University_Students_Contacts order by names asc";
+$sql = "select * from bulksms order by names asc";
  
 $res = mysqli_query($con,$sql);
  
